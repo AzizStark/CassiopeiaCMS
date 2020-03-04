@@ -25,10 +25,9 @@ Cassiopeia CMS
 <p>
     1. Set Environment variables (Read `Instructions.txt`)   <br/>
     2. Run the commands : </p>
-            <code>
-                npm install --prefix client && npm run  build --prefix client <br/>
-                npm install <br/>
-                npm run start <br/>
-            </code> <br/>
+            <code>  npm install --prefix client && npm run  build --prefix client </code> <br/>
+            <code>  npm install </code> <br/>
+            <code>   npm run start </code> <br/>
+            <br/>
      3. For faster image loading create image transformations in cloudinary and set transformation names.
     <br/> 4. Start creating content. </p>
