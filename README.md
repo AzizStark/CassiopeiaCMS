@@ -32,4 +32,4 @@ Cassiopeia CMS
             <code>   npm run start </code> <br/>
             <br/>
      3. For faster image loading create image transformations in cloudinary and set transformation names.
-    <br/> 4.Thats all, Start creating content! </p>
+    <br/> 4. That's all, Start creating content! </p>
