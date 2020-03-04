@@ -5,7 +5,6 @@ import Footer from './footer'
 import bstyles from './blog.module.css';
 import renderHTML from 'react-render-html';
 import ReactDisqusComments from 'react-disqus-comments';
-import transformations from '../transformations.json';
 
 class view extends Component {
 
@@ -51,6 +50,9 @@ class view extends Component {
   }
 
   render() {
+
+    const transformation = ['t_equla/']
+
     return (
       <div className={bstyles.blog} style={{ overflow: 'Hidden' }}>
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145139004-1"></script>
@@ -69,7 +71,7 @@ class view extends Component {
             <h1 className={bstyles.sidebar}>AZIZSTARK'S BLOG</h1>
             <div className="columns is-desktop" >
               <div className="column" >
-                <img alt="header" src={`https://res.cloudinary.com/azizcloud/image/upload/${transformations.transformations.header}${(this.state.image).slice(50)}`} className={bstyles.head1} />
+                <img alt="header" src={`https://res.cloudinary.com/azizcloud/image/upload/${transformation}${(this.state.image).slice(50)}`} className={bstyles.head1} />
               </div>
               <div className="column" style={{ maxWidth: '50%' }}>
                 <div className={bstyles.adapt}>

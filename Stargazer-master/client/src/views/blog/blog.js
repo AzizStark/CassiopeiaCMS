@@ -1,14 +1,11 @@
 import React, { Component } from "react";
 import axios from "axios";
 import Navba from './navbar';
-import Footer from './footer';
-import './bulma.css';
-import './imagehover.min.css';
+import Footer from './footer'
 import bstyles from './blog.module.css';
-import { Link } from 'react-router-dom';
-import field from './field.jpg';
+import { Link } from 'react-router-dom'
+import field from './field.jpg'
 import { LazyLoadComponent } from 'react-lazy-load-image-component';
-import transformations from '../transformations.json';
 
 class Blog extends Component {
 
@@ -109,7 +106,7 @@ class Blog extends Component {
               </div>
               <div className={`column ${bstyles.htitle}`}>
                 <div className={bstyles.adapt}>
-                  <h1 className={bstyles.title1}>Welcome to Cassiopeia CMS</h1>
+                  <h1 className={bstyles.title1}>Stars don't disappear they keep blazing!</h1>
                 </div>
               </div>
             </div>
@@ -125,7 +122,6 @@ class Blog extends Component {
             </div>
             <div className={`container ${bstyles.holder}`}>
               <form onSubmit={(e) => this.subscribe(e)}>
-                <br/>
                 <h1 className='title' style={{ color: 'white', textAlign: 'center' }} >Join my blog</h1><br />
                 <center><input className={`${bstyles.inputarea} ${bstyles.inputx}`} onChange={(e) => this.setState({ email: e.target.value })} name="user_email" placeholder="Your email address" type='email' required /></center><br />
                 <br />
@@ -144,7 +140,7 @@ function box(wtype, title, cid, date, index, image, tag) {
   return (<div className={`column is-full-touch ${bstyles.wrapper} ${wtype} ${bstyles.slider}`} key={index}>
     <Link to={{ pathname: `blog/${cid}/${title.replace(/ /g, "-")}` }} style={{ color: 'inherit' }}>
     <LazyLoadComponent>
-      <div className={`${bstyles.box}`} style={{ backgroundImage: `linear-gradient(42.51deg, rgba(3, 3, 3, 0.55) -3.51%, rgba(86, 85, 85, 0.51) 97.42%),url(https://res.cloudinary.com/azizcloud/image/upload/${transformations.transformations.cards}${image.slice(50)})` }}>
+      <div className={`${bstyles.box}`} style={{ backgroundImage: `linear-gradient(42.51deg, rgba(3, 3, 3, 0.55) -3.51%, rgba(86, 85, 85, 0.51) 97.42%),url(https://res.cloudinary.com/azizcloud/image/upload/t_tiles/${image.slice(50)})` }}>
         <h1 className={bstyles.htext}>{title}</h1>
         <br />
         <h1 className={bstyles.stext}>{date}</h1>

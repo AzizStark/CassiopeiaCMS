@@ -35,7 +35,7 @@
     backdrop-filter: blur(25px);
     border-radius: 25px;
     margin: -10px 7vw 0px 7vw;
-    padding: 90px 18vw 90px 18vw !important;
+    padding: 90px 18vw 90px 18vw;
     font-size: 1.3vw;
     font-weight: 500;
     filter: none;
@@ -103,6 +103,10 @@
     width: 70%;
   }
 
+  .inputx {
+    width: 40% !important;
+  }
+
   .dashboard {
     padding: 10%;
   }
@@ -161,7 +165,7 @@
     backdrop-filter: blur(25px);
     border-radius: 25px;
     margin: -105px 2vw 0px 2vw;
-    padding: 30px 5vw 40px 5vw !important;
+    padding: 30px 5vw 40px 5vw;
     filter: none;
     z-index: 0;
   }
