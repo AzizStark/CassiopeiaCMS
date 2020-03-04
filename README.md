@@ -2,7 +2,7 @@ Cassiopeia CMS
 
 <hr/>
 
-<p align="center"><img width=300 src="https://res.cloudinary.com/azizcloud/image/upload/v1583339533/ltfzwfalcfyxre6ctyxt.png" /></p>
+<p align="center"><img width=300 src="https://res.cloudinary.com/azizcloud/image/upload/v1583349609/h30jyec2kg0nyrv3xruc.svg" /></p>
 
 <h3 align="center"> A bodacious, headless content management system. </h3>
 
