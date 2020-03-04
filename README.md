@@ -2,7 +2,7 @@
 
 <h3 align="center"> A bodacious, headless content management system. </h3>
 
-<h4> Cassiopeia allows to create your blog with a customizable interface and comes with a dynamic content editor. </h4>
+<h4> Cassiopeia allows you to create your blog with a customizable interface and comes with a dynamic content editor. </h4>
 
 <h4>Built on top of NodeJS with interface built with ReactJS.</h4>
 
