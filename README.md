@@ -1,4 +1,4 @@
-<p align="center"><img width=300 src="https://res.cloudinary.com/azizcloud/image/upload/v1583349609/h30jyec2kg0nyrv3xruc.svg" /></p>
+<p align="center"><img width=400 src="https://res.cloudinary.com/azizcloud/image/upload/v1583349609/h30jyec2kg0nyrv3xruc.svg" /></p>
 
 <h3 align="center"> A bodacious, headless content management system. </h3>
 
@@ -28,4 +28,4 @@
             <code>   npm run start </code> <br/>
             <br/>
      3. For faster image loading create image transformations in cloudinary and set transformation names.
-    <br/> 4. That's all, Start creating content! </p>
+    <br/> 4. That's all, start creating content! </p>
