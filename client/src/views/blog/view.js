@@ -46,8 +46,11 @@ class view extends Component {
             image: res.data.imageurl
           })
         }
+	else{
+          this.props.history.push('/404')
+        }
       })
-      .catch(err => console.log(err))
+      .catch(err => this.props.history.push('/404'))
   }
 
   render() {

@@ -6,6 +6,7 @@ import View from './views/blog/view';
 import Contact from './views/blog/contact';
 import Login from './views/admin/login';
 import Editor from './views/admin/editor';
+import NotFound from './views/blog/404';
 import Dashboard from './views/admin/dashboard';
 import * as serviceWorker from './serviceWorker';
 
@@ -14,11 +15,12 @@ const routing = (
       <div>
         <Route exact path="/" component={Blog} />
         <Route exact path="/blog" component={Blog} />
-	      <Route path="/blog/:id" component={View}/>
+	<Route path="/blog/:id" component={View}/>
         <Route path="/contact" component={Contact}/>
         <Route exact path="/admin/editor" component={Editor} />
         <Route exact path="/admin/editor/:cid/:id" component={Editor} />
        	<Route path="/admin/login" component={Login}/>
+	<Route path="/404" component={NotFound}/>
         <Route path="/admin/dashboard" component={Dashboard}/>
       </div>
     </Router>
