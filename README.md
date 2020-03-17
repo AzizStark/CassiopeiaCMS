@@ -14,6 +14,7 @@
     2. NodeJS Hosting  <br/>
     3. Cloudinary (Image Service)  <br/>
     4. MailGun (E-mail Service) 
+    5. Disqus (Comments)
 </p>
 
 
