@@ -32,6 +32,6 @@
     <br/><br/>
      5. That's all, start creating content! </p>
     
- <h2> Blog running on Cassiopeia </h2>
+ <h2> Sample blog </h2>
  
    [Stargazer](https://azizstark.unubo.app/blog "AzizStark's Blog")
