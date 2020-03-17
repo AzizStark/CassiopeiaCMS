@@ -13,7 +13,7 @@
     1. MongoDB (Atlas) <br/>
     2. NodeJS Hosting  <br/>
     3. Cloudinary (Image Service)  <br/>
-    4. MailGun (E-mail Service) 
+    4. MailGun (E-mail Service) <br/>
     5. Disqus (Comments)
 </p>
 
