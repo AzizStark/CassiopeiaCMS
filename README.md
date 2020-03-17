@@ -19,17 +19,18 @@
 
 <h2> Installation </h2>
 <p>
-    1. Download or clone repository : </p>
-            <code> git clone https://github.com/AzizStark/CassiopeiaCMS.git </code> <br/>
-    2. Set Environment variables (Read `Instructions.txt`)   <br/>
-      3. Run the commands: <br/>
-            <code> cd CassiopeiaCMS </code> <br/>
-            <code>  npm install --prefix client && npm run  build --prefix client </code> <br/>
-            <code>  npm install </code> <br/>
-            <code>   npm run start </code> <br/>
-            <br/>
-     3. For faster image loading create image transformations in cloudinary and set transformation names.
-    <br/> 4. That's all, start creating content! </p>
+    1. Download or clone repository :  <br/> <br/>
+            <code> git clone https://github.com/AzizStark/CassiopeiaCMS.git </code>  <br/> <br/>
+    2. Set Environment variables (Read `Instructions.txt`)   <br/> <br/>
+    3. Run the commands: <br/> <br/>
+        <code> cd CassiopeiaCMS </code> <br/>
+        <code>  npm install --prefix client && npm run  build --prefix client </code> <br/>
+        <code>  npm install </code> <br/>
+        <code>   npm run start </code> <br/>
+        <br/>
+     4. For faster image loading create image transformations in cloudinary and set transformation names.
+    <br/><br/>
+     5. That's all, start creating content! </p>
     
  <h2> Blog running on Cassiopeia </h2>
  
