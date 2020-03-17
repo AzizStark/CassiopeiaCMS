@@ -19,10 +19,11 @@
 
 <h2> Installation </h2>
 <p>
-    1. Set Environment variables (Read `Instructions.txt`)   <br/>
-    2. Run the commands : </p>
+    1. Download or clone repository : </p>
             <code> git clone https://github.com/AzizStark/CassiopeiaCMS.git </code> <br/>
-            <code> cd CassiopeiaCMS </code> <br/>
+    2. Set Environment variables (Read `Instructions.txt`)   <br/>
+    3. Run the commands
+            <code> cd CassiopeiaCMS </code> 
             <code>  npm install --prefix client && npm run  build --prefix client </code> <br/>
             <code>  npm install </code> <br/>
             <code>   npm run start </code> <br/>
