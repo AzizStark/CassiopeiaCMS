@@ -22,8 +22,8 @@
     1. Download or clone repository : </p>
             <code> git clone https://github.com/AzizStark/CassiopeiaCMS.git </code> <br/>
     2. Set Environment variables (Read `Instructions.txt`)   <br/>
-    3. Run the commands
-            <code> cd CassiopeiaCMS </code> 
+      3. Run the commands: <br/>
+            <code> cd CassiopeiaCMS </code> <br/>
             <code>  npm install --prefix client && npm run  build --prefix client </code> <br/>
             <code>  npm install </code> <br/>
             <code>   npm run start </code> <br/>
