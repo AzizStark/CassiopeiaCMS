@@ -29,3 +29,7 @@
             <br/>
      3. For faster image loading create image transformations in cloudinary and set transformation names.
     <br/> 4. That's all, start creating content! </p>
+    
+ <h2> Blog running on Cassiopeia </h2>
+ 
+   [Stargazer](https://azizstark.unubo.app/blog "AzizStark's Blog")
