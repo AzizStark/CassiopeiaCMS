@@ -1,6 +1,6 @@
 <p align="center"><img width=400 src="https://res.cloudinary.com/azizcloud/image/upload/v1583349609/h30jyec2kg0nyrv3xruc.svg" /></p>
 
-<h3 align="center"> A bodacious, headless content management system. </h3>
+<h3 align="center"> A bodacious, secure, headless content management system. </h3>
 
 <h4> Cassiopeia allows you to create your blog with a customizable interface and comes with a dynamic content editor. </h4>
 
