@@ -42,6 +42,6 @@
     "react-render-html": "^0.6.0"
   },
   "devDependencies": {
-    "concurrently": "^5.2.0"
+    "concurrently": "^6.0.1"
   }
 }
