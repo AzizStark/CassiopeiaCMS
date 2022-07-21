@@ -8,7 +8,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.12.1",
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
     "@fortawesome/react-fontawesome": "^0.1.8",
-    "axios": "^0.19.2",
+    "axios": "^0.21.2",
     "babel-plugin-react-css-modules": "^5.2.6",
     "bulma": "^0.8.0",
     "react": "^16.12.0",
